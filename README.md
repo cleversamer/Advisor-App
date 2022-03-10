@@ -4,7 +4,7 @@ A simple React app that generates advices.
 
 ## 🔴 Live Demo
 
-Not live yet...
+[Click here...](https://focused-johnson-196bec.netlify.app/)
 
 ## Description
 
