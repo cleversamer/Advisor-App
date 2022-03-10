@@ -1,0 +1,112 @@
+/* Defaults */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
+/* Color Palette */
+:root {
+  --color-primary: #164ca7;
+  --color-primary-light: #224786;
+  --color-heading: #333;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: var(--color-heading);
+}
+
+/* Links */
+.link {
+  text-decoration: none;
+  color: var(--color-primary-light);
+}
+
+.link:active {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+/* App */
+.app {
+  height: 100%;
+  background: linear-gradient(#0000004d, rgba(0, 0, 0, 0.3)),
+    url("../images/city.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Notification */
+.notification {
+  margin-bottom: 5rem;
+  background-color: #69a017;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Card */
+.card {
+  align-items: center;
+  background: whitesmoke;
+  border-radius: 25px;
+  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  width: 30rem;
+}
+
+/* Buttons */
+.btn {
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary-light);
+}
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+}
