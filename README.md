@@ -2,6 +2,10 @@
 
 A simple React app that generates advices.
 
+# 🔴 Live Demo
+
+Not live yet...
+
 ## Description
 
 This is a random text generator app that fetch advices via Fetch API and display it to the user.
