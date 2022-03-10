@@ -2,7 +2,7 @@
 
 A simple React app that generates advices.
 
-# 🔴 Live Demo
+## 🔴 Live Demo
 
 Not live yet...
 
