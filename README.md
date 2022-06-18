@@ -1,4 +1,4 @@
-# Advicor App 🚀
+# Advisor App 🚀
 
 A simple React app that generates advices.
 
@@ -41,7 +41,7 @@ command to run if program contains helper info
 
 ## Authors
 
-Built and authored by [Samer A.](https://twitter.com/ssadawi__)
+Authored by [Samer A.](https://cleversamer.web.app/)
 
 ## Version History
 
